@@ -1,0 +1,63 @@
+name: calderawp
+recipe: wordpress
+config:
+  env: dev
+  xdebug: true
+  php: '7.2'
+  via: nginx
+  webroot: wordpress
+proxy:
+  mailhog:
+  - mail.calderawp.lndo.site
+  pma:
+  - pma.calderawp.lndo.site
+services:
+  appserver:
+    composer:
+      phpunit/phpunit: '*'
+    build:
+    - "cd $LANDO_MOUNT && composer update --prefer-source"
+    - "bash ./scripts/wp/post-build.sh"
+    - "bash ./scripts/wp/install-wp-tests.sh wordpress wordpress wordpress database"
+    post-start:
+    - "cd $LANDO_MOUNT && composer update --prefer-source"
+    - "bash ./scripts/wp/post-start.sh"
+  mailhog:
+    type: mailhog
+    hogfrom:
+    - appserver
+    portforward: true
+  pma:
+    type: phpmyadmin
+    hosts:
+    - database
+    - database.calderawp.internal
+  wptest:
+    type: php:custom
+    overrides:
+      services:
+        image: chriszarate/wordpress-phpunit
+    volumes:
+    - .:/app
+    - testsuite:/tmp
+tooling:
+  composer:
+    service: appserver
+  wp:
+    service: appserver
+  wptests:
+    service: wptest
+    description: Runs WordPress tests
+    cmd: "phpunit"
+    user:  root
+  wptests-now:
+    service: wptest
+    description: Runs WordPress tests
+    cmd: "phpunit --group=now"
+    user:  root
+  wptests-i:
+    service: wptest
+    description: Installs WordPress tests
+    cmd: "cd $LANDO_MOUNT && bash scripts/wp/install-wp-tests.sh wordpress wordpress wordpress database"
+    user:  root
+

@@ -1,0 +1,35 @@
+{
+  "name": "shelob9/calderawp",
+  "minimum-stability": "dev",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    },
+    {
+      "type": "git",
+      "url": "git@github.com:wp-graphql/wp-graphql.git"
+    },
+    {
+      "type": "git",
+      "url": "git@github.com:Shelob9/headless-mode.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://gist.github.com/Shelob9/8b561ddbab7f01b795598f43ec6644da.git"
+    }
+  ],
+  "require": {
+    "wp-graphql/wp-graphql": "dev-develop",
+    "shelob9/contact-form": "*",
+    "shelob9/headless-mode": "*",
+    "vlucas/phpdotenv": "^3.3@dev",
+    "johnpbloch/wordpress"            : ">=5.2",
+    "wpackagist-theme/twentynineteen": "*"
+  },
+  "extra": {
+    "wordpress-plugin": "wp-content/plugins/{$name}",
+    "wordpress-theme": "wp-content/themes/{$name}",
+    "wordpress-muplugin": "wp-content/mu-plugins/{$name}"
+  }
+}

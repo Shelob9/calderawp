@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/vendor/doctrine/instantiator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/johnpbloch/wordpress" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/myclabs/deep-copy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/phar-io/manifest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/phpspec/prophecy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/phpunit/php-timer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/phpunit/php-token-stream" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/phpunit/phpunit" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/sebastian/comparator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/sebastian/diff" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/sebastian/environment" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/sebastian/exporter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/sebastian/object-enumerator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/sebastian/object-reflector" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/sebastian/recursion-context" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/sebastian/resource-operations" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/shelob9/contact-form" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/shelob9/headless-mode" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/vlucas/phpdotenv" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/wp-graphql/wp-graphql" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wordpress" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wp-content/mu-plugins/contact-form" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wp-content/plugins/headless-mode" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wp-content/plugins/wp-graphql" vcs="Git" />
+  </component>
+</project>
