@@ -31,19 +31,37 @@ class Groups extends MailChimpEntity
 	public static function fromArray(array $items): SimpleEntity
 	{
 		$obj = new static();
-		foreach ( $items as $group ){
-			if( ! is_array( $group ) ) {
-				if(  is_a($group, Group::class) ) {
-					$obj->addGroup($group);
-					continue;
-				}else{
-					$group = (array)$group;
+	    $handleGroup = function ($obj,$group){
+            if( ! is_array( $group ) ) {
+                if(  is_a($group, Group::class) ) {
+                    $obj->addGroup($group);
+                    return $obj;
+                }else{
+                    $group = (array)$group;
 
-				}
-			}
-			$obj->addGroup( Group::fromArray($group));
+                }
+            }
+            $obj->addGroup( Group::fromArray($group));
+            return $obj;
+        };
 
-		}
+        if( isset($items['groups'])){
+
+            foreach ( $items['groups'] as $group) {
+                $obj = $handleGroup($obj,$group);
+            }
+        }else{
+            foreach ( $items as $group ){
+                $obj = $handleGroup($obj,$group);
+
+            }
+        }
+
+        if( isset($items['categories'])){
+            foreach ( $items['categories'] as $groupId => $category ) {
+                $obj->addCategoriesForGroup($groupId,$category);
+            }
+        }
 		return$obj;
 	}
 

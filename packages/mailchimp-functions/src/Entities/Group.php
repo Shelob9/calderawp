@@ -33,6 +33,7 @@ class Group extends MailChimpEntity implements ConvertsToUiField
 
 	public static function fromArray(array $items): SimpleEntity
 	{
+
 		$obj = parent::fromArray($items);
 		if( isset( $items['id']) && ! isset( $items['groupId']) ){
 			$obj->setGroupId((string) $items['id']);
@@ -81,7 +82,7 @@ class Group extends MailChimpEntity implements ConvertsToUiField
 	 */
 	public function getTitle(): string
 	{
-		return $this->title;
+		return is_string($this->title) ? $this->title : '';
 	}
 
 	/**
@@ -100,7 +101,7 @@ class Group extends MailChimpEntity implements ConvertsToUiField
 	 */
 	public function getType(): string
 	{
-		return $this->type;
+        return is_string($this->type) ? $this->type : '';
 	}
 
 	/**

@@ -139,7 +139,7 @@ class Lists
 		try {
 			$results = $this
 				->getTable()
-				->findWhere('list_id', $listId);
+				->findWhere('list_id', $listId);;
 			return $this->prepareResults($results);
 		} catch (\Exception $e) {
 			throw  $e;

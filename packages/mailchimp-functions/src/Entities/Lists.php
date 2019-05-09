@@ -47,8 +47,13 @@ class Lists extends MailChimpEntity
 			'fieldType' => 'select',
 			'required' => true,
 			'fieldId' => 'mc-select-field',
-			'options' => [],
+            'options' => [],
+            'label' => 'Choose List'
 		];
+		$fieldConfig['options'][] = [
+            'value' => null,
+            'label' => ' --- '
+        ];
 
 		if (is_array($lists = $this->getLists())) {
 			/** @var SingleList $list */

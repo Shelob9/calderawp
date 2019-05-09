@@ -52,10 +52,10 @@ class ListsTest extends TestCase
 		$this->assertCount(1,$fields);
 		$field = $fields[0];
 		$this->assertEquals('select', $field['fieldType']);
-		$this->assertCount(1,$field['options']);
+		$this->assertCount(2,$field['options']);
 		$this->assertTrue($field['required']);
-
-		$this->assertEquals($listId, $field['options'][0]['value']);
+		$this->assertEquals(null, $field['options'][0]['value']);
+		$this->assertEquals($listId, $field['options'][1]['value']);
 
 	}
 }

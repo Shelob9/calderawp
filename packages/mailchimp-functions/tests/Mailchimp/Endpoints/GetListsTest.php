@@ -40,16 +40,10 @@ class GetListsTest extends TestCase
 		$lists = Lists::fromArray($data);
 		$response = $endpoint->respondForUiField($lists);
 
-		$fieldConfig = $response->getData()[ 0 ];
-		$this->assertEquals([
-			[
-				'value' => '45907f0c59',
-				'label' => 'Future Capable',
-
-			],
-		],
-			$fieldConfig[ 'options' ]
-		);
+		$fieldConfig = $response->getData()[0];
+		$this->assertEquals($fieldConfig['options'][1]['value'],'45907f0c59');
+		$this->assertEquals($fieldConfig['options'][1]['label'],'Future Capable');
+	
 		$this->assertEquals('select',
 			$fieldConfig[ 'fieldType' ]
 		);

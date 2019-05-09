@@ -161,7 +161,7 @@ abstract class AddSubscriber extends MailchimpProxyEndpoint
 			'email' => $email,
 			'status' => $status,
 		]);
-		$subscriber->setListId($listId);
+		$subscriber->setListId($this->list->getListId());
 		$subscriber->setSubscribeMergeVars($subscribeVars);
 		$subscriber->setSubscribeGroups($subscribeGroups);
 		return $subscriber;
