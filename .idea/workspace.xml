@@ -1,12 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f222dcf9-5e13-461b-ad4d-fdf032795eb3" name="Default Changelist" comment="" />
+    <list default="true" id="f222dcf9-5e13-461b-ad4d-fdf032795eb3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/.idea/mailchimp-functions.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/.phpunit.result.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/phpcs.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Controllers/CreateAccount.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Controllers/CreateList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Controllers/CreateSubscriber.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Controllers/FindGroups.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Controllers/FindLists.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Controllers/FindMergeFields.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Controllers/GetList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Controllers/GetLists.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Controllers/GetSegments.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Controllers/HandlesSubscriptionParams.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Controllers/MailchimpProxy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Controllers/UpdateAccount.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Controllers/UpdateList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Controllers/UpdateSubscriber.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Database/Accounts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Database/Database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Database/Lists.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Database/Table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Database/accounts.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Database/lists.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Endpoints/AddAccount.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Endpoints/AddSubscriber.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Endpoints/GetAccounts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Endpoints/GetList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Endpoints/GetLists.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Endpoints/MailchimpProxyEndpoint.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Endpoints/Response.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Endpoints/UpdateAccount.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Endpoints/UpdateSubscriber.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Entities/Account.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Entities/Categories.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Entities/Group.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Entities/Groups.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Entities/Lists.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Entities/MailChimpEntity.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Entities/MergeVar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Entities/MergeVars.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Entities/SingleList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Entities/SubscribeGroups.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Entities/SubscribeMergeVars.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Entities/Subscriber.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Exception.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/HttpClient.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Interfaces/ConvertsToUiField.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/Controllers/CreateAccountTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/Controllers/CreateListTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/Controllers/CreateSubscriberTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/Controllers/FindGroupsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/Controllers/FindMergeFieldsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/Controllers/GetListTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/Controllers/GetListsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/Controllers/UpdateAccountTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/Controllers/UpdateListTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/Controllers/UpdateSubscriberTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/Database/AccountsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/Database/DatabaseTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/Endpoints/AddSubscriberTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/Endpoints/GetListsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/Endpoints/UpdateSubscriberTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/Entities/AccountTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/Entities/CategoriesTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/Entities/GroupTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/Entities/GroupsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/Entities/ListsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/Entities/MergeVarTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/Entities/MergeVarsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/Entities/SingleListTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/Entities/SubscribeGroupsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/Entities/SubscribeMergeVarsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/Entities/SubscriberTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/HttpClientTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/MockClient.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/MockClientTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/MockResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/SomethingTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/data/account.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/data/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/data/groups.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/data/list.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/data/lists.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/data/mergeFields.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caldera-two.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caldera-two.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/composer.json" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-769156656">
@@ -21,84 +129,96 @@
     <session id="-1950863502">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="env" value="1" />
-          <entry key="gitignore" value="1" />
-          <entry key="json" value="2" />
-          <entry key="md" value="1" />
-          <entry key="php" value="2" />
+          <entry key="env" value="6" />
+          <entry key="gitignore" value="3" />
+          <entry key="html" value="1" />
+          <entry key="js" value="19" />
+          <entry key="json" value="11" />
+          <entry key="log" value="3" />
+          <entry key="md" value="2" />
+          <entry key="php" value="158" />
           <entry key="sh" value="4" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key=".env file" value="1" />
+          <entry key=".env file" value="6" />
+          <entry key="ANSI Aware" value="3" />
           <entry key="Bash" value="4" />
-          <entry key="JSON" value="2" />
-          <entry key="Markdown" value="1" />
-          <entry key="PHP" value="2" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="HTML" value="1" />
+          <entry key="JSON" value="11" />
+          <entry key="JavaScript" value="19" />
+          <entry key="Markdown" value="2" />
+          <entry key="PHP" value="158" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="env" value="3" />
-          <entry key="gitignore" value="128" />
-          <entry key="json" value="115" />
-          <entry key="md" value="121" />
-          <entry key="php" value="43" />
+          <entry key="gitignore" value="173" />
+          <entry key="js" value="748" />
+          <entry key="json" value="162" />
+          <entry key="md" value="167" />
+          <entry key="php" value="3419" />
+          <entry key="txt" value="17" />
           <entry key="yml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="3" />
-          <entry key="JSON" value="115" />
-          <entry key="Markdown" value="121" />
-          <entry key="PHP" value="43" />
-          <entry key="PLAIN_TEXT" value="128" />
+          <entry key="JSON" value="162" />
+          <entry key="JavaScript" value="748" />
+          <entry key="Markdown" value="167" />
+          <entry key="PHP" value="3419" />
+          <entry key="PLAIN_TEXT" value="190" />
           <entry key="YAML" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.new.class">
+        <counts>
+          <entry key="PHP Class.type" value="11" />
+          <entry key="PHP Trait.type" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/wp/post-build.sh">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/composer.json">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/src/store.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+            <state relative-caret-position="2580">
+              <caret line="174" column="10" selection-start-line="174" selection-start-column="10" selection-end-line="174" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/php/Endpoints/GetAccounts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="3" selection-start-column="3" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="496">
+              <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+              <folding>
+                <element signature="e#58#120#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,47 +226,147 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="30">
-                <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="315">
+              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/wp/post-start.sh">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/src/blocks/signup/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="975">
+              <caret line="71" column="7" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/src/blocks/signup/components/Edit.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1545">
+              <caret line="105" selection-start-line="105" selection-end-line="105" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/src/components/Admin/SelectList/SelectList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="24" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/php/RestApi.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1470">
+              <caret line="115" column="57" selection-start-line="115" selection-start-column="57" selection-end-line="115" selection-end-column="57" />
+              <folding>
+                <element signature="e#48#110#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>simulate</find>
+      <find>* /caldera-api/v1/messages/mailchimp/v1/accounts</find>
+      <find>CreateSubscriber</find>
+      <find>CreateAcc</find>
+      <find>CreateAccountEndpoint</find>
+      <find>toDbDat</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/src/components</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/wp-content/mu-plugins/contact-form" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.lando.yml" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/wp-config.php" />
+        <option value="$PROJECT_DIR$/wp-content/packages/mailchimp-functions/src/Exception.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/php/Endpoints/GetsSavedList.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/REST-API.md" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/php/Endpoints/GetList.php" />
+        <option value="$PROJECT_DIR$/wp-content/packages/mailchimp-functions/src/Controllers/MailchimpProxy.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/php/Controllers/HasModule.php" />
+        <option value="$PROJECT_DIR$/wp-content/packages/mailchimp-functions/src/Controllers/CreateSubscriber.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/php/Endpoints/AddSubscriber.php" />
+        <option value="$PROJECT_DIR$/wp-content/packages/mailchimp-functions/src/Endpoints/AddSubscriber.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/php/Controllers/UpdateAccount.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/php/Controllers/CreateSubscriber.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/php/Endpoints/UpdateSubscriber.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/vendor/shelob9/mailchimp-functions/src/Endpoints/UpdateAccount.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/src/index.js" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/vendor/shelob9/mailchimp-functions/src/Database/Accounts.php" />
+        <option value="$PROJECT_DIR$/wp-content/packages/mailchimp-functions/src/Controllers/FindGroup.php" />
+        <option value="$PROJECT_DIR$/wp-content/packages/mailchimp-functions/src/Controllers/FindGroups.php" />
+        <option value="$PROJECT_DIR$/wp-content/packages/mailchimp-functions/src/Controllers/FindLists.php" />
+        <option value="$PROJECT_DIR$/wp-content/packages/mailchimp-functions/src/Controllers/CreateAccount.php" />
+        <option value="$PROJECT_DIR$/wp-content/packages/mailchimp-functions/src/Controllers/GetLists.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/caldera-mailchimp.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/php/Endpoints/AddAccount.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/php/Controllers/CreateAccount.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/php/Controllers/GetLists.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/vendor/shelob9/mailchimp-functions/src/Entities/SingleList.php" />
+        <option value="$PROJECT_DIR$/wp-content/packages/mailchimp-functions/src/Database/Lists.php" />
+        <option value="$PROJECT_DIR$/wp-content/packages/mailchimp-functions/tests/Mailchimp/Entities/SingleListTest.php" />
+        <option value="$PROJECT_DIR$/wp-content/packages/mailchimp-functions/tests/Mailchimp/Endpoints/AddSubscriberTest.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/vendor/shelob9/mailchimp-functions/src/Entities/Account.php" />
+        <option value="$PROJECT_DIR$/wp-content/packages/mailchimp-functions/tests/Mailchimp/Entities/AccountTest.php" />
+        <option value="$PROJECT_DIR$/wp-content/packages/mailchimp-functions/src/Endpoints/GetLists.php" />
+        <option value="$PROJECT_DIR$/wp-content/packages/mailchimp-functions/src/Endpoints/GetList.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/php/Controllers/GetList.php" />
+        <option value="$PROJECT_DIR$/wp-content/packages/mailchimp-functions/src/Entities/SingleList.php" />
+        <option value="$PROJECT_DIR$/wp-content/debug.log" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/inc/scripts.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/inc/asset-loader.php" />
+        <option value="$PROJECT_DIR$/wp-content/packages/mailchimp-functions/src/Endpoints/UpdateAccount.php" />
+        <option value="$PROJECT_DIR$/wp-content/packages/mailchimp-functions/src/Endpoints/AddAccount.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/src/http/adminClient.js" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/src/store.js" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/src/blocks/signup/index.js" />
+        <option value="$PROJECT_DIR$/wp-content/packages/mailchimp-functions/src/Endpoints/GetAccounts.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/php/RestApi.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/src/blocks/signup/components/Edit.js" />
+        <option value="$PROJECT_DIR$/wp-content/packages/mailchimp-functions/src/Entities/Account.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/php/Endpoints/GetAccounts.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/wp-content/packages/mailchimp-functions/composer.json" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/.gitignore" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/composer.json" />
       </list>
     </option>
   </component>
@@ -156,25 +376,50 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/node_modules" />
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/wordpress/wp-content/themes/twentynineteen/package.json" />
+      <path value="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/package.json" />
       <path value="$PROJECT_DIR$/wp-content/themes/twentynineteen/package.json" />
     </packageJsonPaths>
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="appserver" id="950eb42d-dd68-49cb-968c-17ce998dae1c" name="appserver" use_path_mappings="true">
         <path_mappings>
+          <mapping local-root="$PROJECT_DIR$" remote-root="/app" />
+          <mapping local-root="$PROJECT_DIR$/wordpress" remote-root="/app/wordpress" />
           <mapping local-root="$PROJECT_DIR$/wordpress/wp-admin" remote-root="/app/wordpress/wp-admin" />
+          <mapping local-root="$PROJECT_DIR$/wp-content" remote-root="/app/wp-content" />
+        </path_mappings>
+      </server>
+      <server host="appserver" id="571f819c-589e-4189-a236-bc4123c40d17" name="appserver (1)" port="443" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$/wordpress" remote-root="/app/wordpress" />
         </path_mappings>
       </server>
     </servers>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="216" />
-    <option name="y" value="92" />
-    <option name="width" value="1645" />
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/ivome/graphql-relay-php" />
+      <path value="$PROJECT_DIR$/vendor/webonyx/graphql-php" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/johnpbloch/wordpress-core-installer" />
+      <path value="$PROJECT_DIR$/vendor/johnpbloch/wordpress" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="438" />
+    <option name="y" value="81" />
+    <option name="width" value="1379" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -205,7 +450,50 @@
               <item name="calderawp" type="b2602c69:ProjectViewProjectNode" />
               <item name="calderawp" type="462c0819:PsiDirectoryNode" />
               <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="mu-plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="calderawp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calderawp" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="calderawp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calderawp" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="mailchimp-functions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="calderawp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calderawp" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
               <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="calderawp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calderawp" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="caldera-mailchimp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="calderawp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calderawp" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="caldera-mailchimp" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="calderawp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calderawp" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="caldera-mailchimp" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="mailchimp-functions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -217,13 +505,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="settings.php.debug.servers" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wp-content" />
+      <recent name="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp" />
+      <recent name="$PROJECT_DIR$/scripts" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/scripts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -249,31 +542,38 @@
       <option name="presentableId" value="Default" />
       <updated>1557231156331</updated>
       <workItem from="1557231157531" duration="2000" />
-      <workItem from="1557231184047" duration="2253000" />
+      <workItem from="1557231184047" duration="4997000" />
+      <workItem from="1557244111121" duration="3257000" />
+      <workItem from="1557311707783" duration="2028000" />
+      <workItem from="1557314779586" duration="6188000" />
+      <workItem from="1557332281268" duration="4059000" />
+      <workItem from="1557353135698" duration="2648000" />
+      <workItem from="1557356032105" duration="553000" />
+      <workItem from="1557404154566" duration="560000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2255000" />
+    <option name="totallyTimeSpent" value="24292000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="216" y="92" width="1645" height="877" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25265127" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32968238" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4720701" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.34012738" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.42165604" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -291,72 +591,534 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/wp-config.php</url>
-          <line>3</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/inc/asset-loader.php</url>
+          <line>81</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/vendor/shelob9/mailchimp-functions/src/Endpoints/AddAccount.php</url>
+          <line>43</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/vendor/shelob9/mailchimp-functions/src/Endpoints/AddAccount.php</url>
+          <line>46</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/vendor/shelob9/mailchimp-functions/src/Endpoints/AddAccount.php</url>
+          <line>48</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/php/Controllers/CreateAccount.php</url>
+          <line>27</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/php/Controllers/CreateAccount.php</url>
+          <line>67</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/php/Controllers/CreateAccount.php</url>
+          <line>40</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/php/Controllers/CreateAccount.php</url>
+          <line>39</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/vendor/shelob9/mailchimp-functions/src/Entities/Account.php</url>
+          <line>171</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/php/Controllers/CreateAccount.php</url>
+          <line>64</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/php/Controllers/CreateAccount.php</url>
+          <line>53</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/php/Controllers/CreateAccount.php</url>
+          <line>60</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/php/Controllers/CreateAccount.php</url>
+          <line>58</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Controllers/GetLists.php</url>
+          <line>19</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Controllers/GetLists.php</url>
+          <line>24</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/php/Controllers/GetLists.php</url>
+          <line>13</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/php/Controllers/GetLists.php</url>
+          <line>15</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/vendor/shelob9/mailchimp-functions/src/Database/Lists.php</url>
+          <line>121</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/vendor/shelob9/mailchimp-functions/vendor/calderawp/caldera-db/src/Table.php</url>
+          <line>215</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/vendor/shelob9/mailchimp-functions/src/Database/Lists.php</url>
+          <line>158</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/vendor/shelob9/mailchimp-functions/src/Database/Lists.php</url>
+          <line>170</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/vendor/shelob9/mailchimp-functions/src/Database/Lists.php</url>
+          <line>160</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Endpoints/GetLists.php</url>
+          <line>68</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Endpoints/GetList.php</url>
+          <line>49</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Controllers/GetList.php</url>
+          <line>29</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Endpoints/GetList.php</url>
+          <line>61</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/php/Controllers/GetList.php</url>
+          <line>24</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/php/Controllers/GetList.php</url>
+          <line>21</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/php/Controllers/GetList.php</url>
+          <line>18</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Entities/SingleList.php</url>
+          <line>144</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/php/Controllers/GetList.php</url>
+          <line>26</line>
+          <option name="timeStamp" value="86" />
         </line-breakpoint>
       </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scripts/wp/post-start.sh">
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/.env">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/vendor/shelob9/mailchimp-functions/src/Endpoints/AddAccount.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="-103">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/wp/includes.sh">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Controllers/CreateAccount.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.lando.yml">
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/vendor/thinkshout/mailchimp-api-php/src/MailchimpLists.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/vendor/shelob9/mailchimp-functions/src/Controllers/MailchimpProxy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Database/Accounts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/vendor/shelob9/mailchimp-functions/vendor/calderawp/caldera-db/src/Table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="215" selection-start-line="215" selection-end-line="215" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/vendor/shelob9/mailchimp-functions/src/Database/Lists.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-413">
+          <caret line="115" column="20" selection-start-line="115" selection-start-column="20" selection-end-line="115" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/vendor/shelob9/mailchimp-functions/src/Entities/SingleList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="74" column="36" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/Entities/MergeVarsTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="49" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="23" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Controllers/MailchimpProxy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/Endpoints/AddSubscriberTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/Entities/SingleListTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="134" column="29" lean-forward="true" selection-start-line="134" selection-start-column="29" selection-end-line="134" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/vendor/shelob9/mailchimp-functions/src/Entities/Account.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="171" column="99" selection-start-line="171" selection-start-column="99" selection-end-line="171" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Endpoints/GetList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Endpoints/GetLists.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/php/Controllers/GetLists.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Controllers/GetList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/php/Controllers/GetList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#60#107#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/tests/Mailchimp/Entities/AccountTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="126" selection-start-line="126" selection-end-line="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Database/Lists.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="167" column="7" lean-forward="true" selection-start-line="167" selection-start-column="7" selection-end-line="167" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/php/Controllers/CreateAccount.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#60#108#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Controllers/GetLists.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Entities/SingleList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1830">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/vendor/shelob9/mailchimp-functions/src/Endpoints/MailchimpProxyEndpoint.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="20" />
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/wp/install-wp-tests.sh">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Endpoints/UpdateAccount.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/wp/post-build.sh">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Endpoints/UpdateSubscriber.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
+          <caret column="50" lean-forward="true" selection-start-column="14" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-config.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/inc/asset-loader.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="297">
+          <caret line="99" column="28" lean-forward="true" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/inc/scripts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="57" column="59" lean-forward="true" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/caldera-mailchimp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="56" column="43" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/debug.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Endpoints/AddSubscriber.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/vendor/shelob9/mailchimp-functions/src/Endpoints/GetLists.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/php/Endpoints/AddAccount.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Endpoints/AddAccount.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/src/blocks/block-a/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/src/http/adminClient.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/src/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2580">
+          <caret line="174" column="10" selection-start-line="174" selection-start-column="10" selection-end-line="174" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Entities/Account.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="45" column="31" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/src/blocks/signup/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="71" column="7" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/src/blocks/signup/components/Edit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1545">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/src/Endpoints/GetAccounts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/src/components/Admin/SelectList/SelectList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/php/RestApi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="115" column="57" selection-start-line="115" selection-start-column="57" selection-end-line="115" selection-end-column="57" />
+          <folding>
+            <element signature="e#48#110#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/php/Endpoints/GetAccounts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+          <folding>
+            <element signature="e#58#120#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        <state relative-caret-position="315">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+        <state relative-caret-position="15">
+          <caret line="1" column="40" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
         </state>
       </provider>
     </entry>
