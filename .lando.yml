@@ -8,38 +8,30 @@ config:
   webroot: wordpress
 proxy:
   mailhog:
-  - mail.calderawp.lndo.site
+    - mail.calderawp.lndo.site
   pma:
-  - pma.calderawp.lndo.site
+    - pma.calderawp.lndo.site
 services:
   appserver:
     composer:
       phpunit/phpunit: '*'
     build:
-    - "cd $LANDO_MOUNT && composer update --prefer-source"
-    - "bash ./scripts/wp/post-build.sh"
-    - "bash ./scripts/wp/install-wp-tests.sh wordpress wordpress wordpress database"
+      - "cd $LANDO_MOUNT && composer update --prefer-source"
+      - "bash ./scripts/wp/post-build.sh"
+      - "bash ./scripts/wp/install-wp-tests.sh wordpress wordpress wordpress database"
     post-start:
-    - "cd $LANDO_MOUNT && composer update --prefer-source"
-    - "bash ./scripts/wp/post-start.sh"
+      - "cd $LANDO_MOUNT && composer update --prefer-source"
+      - "bash ./scripts/wp/post-start.sh"
   mailhog:
     type: mailhog
     hogfrom:
-    - appserver
+      - appserver
     portforward: true
   pma:
     type: phpmyadmin
     hosts:
-    - database
-    - database.calderawp.internal
-  wptest:
-    type: php:custom
-    overrides:
-      services:
-        image: chriszarate/wordpress-phpunit
-    volumes:
-    - .:/app
-    - testsuite:/tmp
+      - database
+      - database.calderawp.internal
 tooling:
   composer:
     service: appserver

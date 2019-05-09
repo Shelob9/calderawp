@@ -1,0 +1,125 @@
+{
+  "account_id": "84446eeffe4a518cc2b218998",
+  "login_id": "25253355",
+  "account_name": "Josh Pollock",
+  "email": "josh@joshpress.net",
+  "first_name": "Josh",
+  "last_name": "Pollock",
+  "username": "josh@joshpress.net",
+  "avatar_url": "https:\/\/secure.gravatar.com\/avatar\/b9413cd8c98171fb0b542bced3855d8a.jpg?s=300&d=https%3A%2F%2Fcdn-images.mailchimp.com%2Ficons%2Fletter-avatars%2Fj.png",
+  "role": "owner",
+  "member_since": "2013-12-28T05:08:18+00:00",
+  "pricing_plan_type": "monthly",
+  "first_payment": "",
+  "account_timezone": "US\/Eastern",
+  "account_industry": "Education and Training",
+  "contact": {
+    "company": "Josh Pollock",
+    "addr1": "1234 Not There St.",
+    "addr2": "",
+    "city": "Tallahassee",
+    "state": "FL",
+    "zip": "32303",
+    "country": "US"
+  },
+  "pro_enabled": false,
+  "last_login": "2019-05-06T17:05:25+00:00",
+  "total_subscribers": 4,
+  "industry_stats": {
+    "open_rate": 0.14517037069718,
+    "bounce_rate": 0.0078292898630727,
+    "click_rate": 0.016295979171264
+  },
+  "_links": [
+    {
+      "rel": "self",
+      "href": "https:\/\/us3.api.mailchimp.com\/3.0\/",
+      "method": "GET",
+      "targetSchema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/Root.json"
+    },
+    {
+      "rel": "lists",
+      "href": "https:\/\/us3.api.mailchimp.com\/3.0\/lists",
+      "method": "GET",
+      "targetSchema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/Lists\/Collection.json",
+      "schema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/CollectionLinks\/Lists.json"
+    },
+    {
+      "rel": "reports",
+      "href": "https:\/\/us3.api.mailchimp.com\/3.0\/reports",
+      "method": "GET",
+      "targetSchema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/Reports\/Collection.json",
+      "schema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/CollectionLinks\/Reports.json"
+    },
+    {
+      "rel": "conversations",
+      "href": "https:\/\/us3.api.mailchimp.com\/3.0\/conversations",
+      "method": "GET",
+      "targetSchema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/Conversations\/Collection.json",
+      "schema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/CollectionLinks\/Conversations.json"
+    },
+    {
+      "rel": "campaigns",
+      "href": "https:\/\/us3.api.mailchimp.com\/3.0\/campaigns",
+      "method": "GET",
+      "targetSchema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/Campaigns\/Collection.json",
+      "schema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/CollectionLinks\/Campaigns.json"
+    },
+    {
+      "rel": "automations",
+      "href": "https:\/\/us3.api.mailchimp.com\/3.0\/automations",
+      "method": "GET",
+      "targetSchema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/Automations\/Collection.json",
+      "schema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/CollectionLinks\/Automations.json"
+    },
+    {
+      "rel": "templates",
+      "href": "https:\/\/us3.api.mailchimp.com\/3.0\/templates",
+      "method": "GET",
+      "targetSchema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/Templates\/Collection.json",
+      "schema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/CollectionLinks\/Templates.json"
+    },
+    {
+      "rel": "file-manager",
+      "href": "https:\/\/us3.api.mailchimp.com\/3.0\/file-manager",
+      "method": "GET",
+      "targetSchema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/FileManager\/Namespace.json"
+    },
+    {
+      "rel": "authorized-apps",
+      "href": "https:\/\/us3.api.mailchimp.com\/3.0\/authorized-apps",
+      "method": "GET",
+      "targetSchema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/AuthorizedApps\/Collection.json"
+    },
+    {
+      "rel": "batches",
+      "href": "https:\/\/us3.api.mailchimp.com\/3.0\/batches",
+      "method": "GET",
+      "targetSchema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/Batches\/Collection.json"
+    },
+    {
+      "rel": "template-folders",
+      "href": "https:\/\/us3.api.mailchimp.com\/3.0\/template-folders",
+      "method": "GET",
+      "targetSchema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/TemplateFolders\/Collection.json"
+    },
+    {
+      "rel": "campaign-folders",
+      "href": "https:\/\/us3.api.mailchimp.com\/3.0\/campaign-folders",
+      "method": "GET",
+      "targetSchema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/CampaignFolders\/Collection.json"
+    },
+    {
+      "rel": "ecommerce",
+      "href": "https:\/\/us3.api.mailchimp.com\/3.0\/ecommerce",
+      "method": "GET",
+      "targetSchema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/Ecommerce\/Namespace.json"
+    },
+    {
+      "rel": "ping",
+      "href": "https:\/\/us3.api.mailchimp.com\/3.0\/ping",
+      "method": "GET",
+      "targetSchema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/Ping\/Namespace.json"
+    }
+  ]
+}

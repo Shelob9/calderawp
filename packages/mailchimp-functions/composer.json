@@ -1,0 +1,38 @@
+{
+    "name": "shelob9/mailchimp-functions",
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.2",
+        "vlucas/phpdotenv": "^3.3",
+        "calderawp/rest-api": "dev-master",
+        "calderawp/caldera-interop": "dev-master",
+        "thinkshout/mailchimp-api-php": "dev-master",
+        "calderawp/http": "dev-master",
+        "guzzlehttp/guzzle": "^6.2",
+        "calderawp/caldera-db": "dev-master",
+        "calderawp/data-source": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.1",
+        "mockery/mockery": "^1.2"
+    },
+    "authors": [
+        {
+            "name": "Josh Pollock",
+            "email": "josh@calderawp.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "something\\Mailchimp\\" : "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "something\\Tests\\Mailchimp\\" : "tests/Mailchimp"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}

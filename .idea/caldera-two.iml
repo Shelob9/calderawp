@@ -2,12 +2,33 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/vendor/calderawp/caldera-containers" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/calderawp/caldera-db" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/calderawp/caldera-interop" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/calderawp/data-source" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/calderawp/http" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/calderawp/rest-api" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/firebase/php-jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/hamcrest/hamcrest-php" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/inpsyde/wp-db-tools" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/inpsyde/wpsr7" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/ivome/graphql-relay-php" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/johnpbloch/wordpress" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/johnpbloch/wordpress-core-installer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/mockery/mockery" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/phpoption/phpoption" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/pimple/pimple" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/shelob9/mailchimp-functions" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/thinkshout/mailchimp-api-php" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/vlucas/phpdotenv" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/webonyx/graphql-php" />
     </content>

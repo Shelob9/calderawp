@@ -1,4 +1,5 @@
 <?php
+
 require_once(__DIR__ . '/vendor/autoload.php');
 $dotenv = Dotenv\Dotenv::create(__DIR__);
 $dotenv->load();
@@ -7,6 +8,7 @@ function _getenv($var, $default = '')
 {
 	return !empty(getenv($var)) ? getenv($var) : $default;
 }
+
 
 define('DB_NAME', _getenv('DB_NAME', 'wordpress'));
 define('DB_USER', _getenv('DB_USER', 'wordpress'));

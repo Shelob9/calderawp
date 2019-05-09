@@ -1,0 +1,163 @@
+{
+  "id": "45907f0c59",
+  "web_id": 608869,
+  "name": "Future Capable",
+  "contact": {
+    "company": "CalderaWP LLC",
+    "address1": "5648 FRIENDSHIP AVE, 3RD FLOOR",
+    "address2": "",
+    "city": "Pittsburgh",
+    "state": "Pennsylvania",
+    "zip": "15206",
+    "country": "US",
+    "phone": ""
+  },
+  "permission_reminder": "This is Josh Pollock's blog about the future of WordPress development",
+  "use_archive_bar": true,
+  "campaign_defaults": {
+    "from_name": "Josh Pollock",
+    "from_email": "josh@calderawp.com",
+    "subject": "",
+    "language": "en"
+  },
+  "notify_on_subscribe": "",
+  "notify_on_unsubscribe": "",
+  "date_created": "2019-04-03T17:19:53+00:00",
+  "list_rating": 0,
+  "email_type_option": false,
+  "subscribe_url_short": "http:\/\/eepurl.com\/gmR3O9",
+  "subscribe_url_long": "https:\/\/JoshPress.us3.list-manage.com\/subscribe?u=84446eeffe4a518cc2b218998&id=45907f0c59",
+  "beamer_address": "us3-a88e590b29-71629fcf80@inbound.mailchimp.com",
+  "visibility": "pub",
+  "double_optin": true,
+  "has_welcome": false,
+  "marketing_permissions": true,
+  "modules": [],
+  "stats": {
+    "member_count": 4,
+    "unsubscribe_count": 0,
+    "cleaned_count": 0,
+    "member_count_since_send": 4,
+    "unsubscribe_count_since_send": 0,
+    "cleaned_count_since_send": 0,
+    "campaign_count": 0,
+    "campaign_last_sent": "",
+    "merge_field_count": 3,
+    "avg_sub_rate": 8,
+    "avg_unsub_rate": 0,
+    "target_sub_rate": 0,
+    "open_rate": 0,
+    "click_rate": 0,
+    "last_sub_date": "2019-04-09T04:21:31+00:00",
+    "last_unsub_date": ""
+  },
+  "_links": [
+    {
+      "rel": "self",
+      "href": "https:\/\/us3.api.mailchimp.com\/3.0\/lists\/45907f0c59",
+      "method": "GET",
+      "targetSchema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/Definitions\/Lists\/Response.json"
+    },
+    {
+      "rel": "parent",
+      "href": "https:\/\/us3.api.mailchimp.com\/3.0\/lists",
+      "method": "GET",
+      "targetSchema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/Definitions\/Lists\/CollectionResponse.json",
+      "schema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/CollectionLinks\/Lists.json"
+    },
+    {
+      "rel": "update",
+      "href": "https:\/\/us3.api.mailchimp.com\/3.0\/lists\/45907f0c59",
+      "method": "PATCH",
+      "targetSchema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/Definitions\/Lists\/Response.json",
+      "schema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/Definitions\/Lists\/PATCH.json"
+    },
+    {
+      "rel": "batch-sub-unsub-members",
+      "href": "https:\/\/us3.api.mailchimp.com\/3.0\/lists\/45907f0c59",
+      "method": "POST",
+      "targetSchema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/Definitions\/Lists\/BatchPOST-Response.json",
+      "schema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/Definitions\/Lists\/BatchPOST.json"
+    },
+    {
+      "rel": "delete",
+      "href": "https:\/\/us3.api.mailchimp.com\/3.0\/lists\/45907f0c59",
+      "method": "DELETE"
+    },
+    {
+      "rel": "abuse-reports",
+      "href": "https:\/\/us3.api.mailchimp.com\/3.0\/lists\/45907f0c59\/abuse-reports",
+      "method": "GET",
+      "targetSchema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/Definitions\/Lists\/Abuse\/CollectionResponse.json",
+      "schema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/CollectionLinks\/Lists\/Abuse.json"
+    },
+    {
+      "rel": "activity",
+      "href": "https:\/\/us3.api.mailchimp.com\/3.0\/lists\/45907f0c59\/activity",
+      "method": "GET",
+      "targetSchema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/Definitions\/Lists\/Activity\/Response.json"
+    },
+    {
+      "rel": "clients",
+      "href": "https:\/\/us3.api.mailchimp.com\/3.0\/lists\/45907f0c59\/clients",
+      "method": "GET",
+      "targetSchema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/Definitions\/Lists\/Clients\/Response.json"
+    },
+    {
+      "rel": "growth-history",
+      "href": "https:\/\/us3.api.mailchimp.com\/3.0\/lists\/45907f0c59\/growth-history",
+      "method": "GET",
+      "targetSchema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/Definitions\/Lists\/Growth\/CollectionResponse.json",
+      "schema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/CollectionLinks\/Lists\/Growth.json"
+    },
+    {
+      "rel": "interest-categories",
+      "href": "https:\/\/us3.api.mailchimp.com\/3.0\/lists\/45907f0c59\/interest-categories",
+      "method": "GET",
+      "targetSchema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/Definitions\/Lists\/InterestCategories\/CollectionResponse.json",
+      "schema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/CollectionLinks\/Lists\/InterestCategories.json"
+    },
+    {
+      "rel": "members",
+      "href": "https:\/\/us3.api.mailchimp.com\/3.0\/lists\/45907f0c59\/members",
+      "method": "GET",
+      "targetSchema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/Definitions\/Lists\/Members\/CollectionResponse.json",
+      "schema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/CollectionLinks\/Lists\/Members.json"
+    },
+    {
+      "rel": "merge-fields",
+      "href": "https:\/\/us3.api.mailchimp.com\/3.0\/lists\/45907f0c59\/merge-fields",
+      "method": "GET",
+      "targetSchema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/Definitions\/Lists\/MergeFields\/CollectionResponse.json",
+      "schema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/CollectionLinks\/Lists\/MergeFields.json"
+    },
+    {
+      "rel": "segments",
+      "href": "https:\/\/us3.api.mailchimp.com\/3.0\/lists\/45907f0c59\/segments",
+      "method": "GET",
+      "targetSchema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/Definitions\/Lists\/Segments\/CollectionResponse.json",
+      "schema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/CollectionLinks\/Lists\/Segments.json"
+    },
+    {
+      "rel": "webhooks",
+      "href": "https:\/\/us3.api.mailchimp.com\/3.0\/lists\/45907f0c59\/webhooks",
+      "method": "GET",
+      "targetSchema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/Definitions\/Lists\/Webhooks\/CollectionResponse.json",
+      "schema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/CollectionLinks\/Lists\/Webhooks.json"
+    },
+    {
+      "rel": "signup-forms",
+      "href": "https:\/\/us3.api.mailchimp.com\/3.0\/lists\/45907f0c59\/signup-forms",
+      "method": "GET",
+      "targetSchema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/Definitions\/Lists\/SignupForms\/CollectionResponse.json",
+      "schema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/CollectionLinks\/Lists\/SignupForms.json"
+    },
+    {
+      "rel": "locations",
+      "href": "https:\/\/us3.api.mailchimp.com\/3.0\/lists\/45907f0c59\/locations",
+      "method": "GET",
+      "targetSchema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/Definitions\/Lists\/Locations\/CollectionResponse.json",
+      "schema": "https:\/\/us3.api.mailchimp.com\/schema\/3.0\/CollectionLinks\/Lists\/Locations.json"
+    }
+  ]
+}

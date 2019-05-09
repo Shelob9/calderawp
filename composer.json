@@ -17,6 +17,13 @@
     {
       "type": "vcs",
       "url": "https://gist.github.com/Shelob9/8b561ddbab7f01b795598f43ec6644da.git"
+    },{
+      "type": "vcs",
+      "url": "git@github.com:Shelob9/mailchimp-plugin.git"
+    },
+    {
+      "type": "path",
+      "url": "./packages/mailchimp-functions"
     }
   ],
   "require": {
@@ -25,11 +32,19 @@
     "shelob9/headless-mode": "*",
     "vlucas/phpdotenv": "^3.3@dev",
     "johnpbloch/wordpress"            : ">=5.2",
+    "calderawp/caldera-mailchimp": "*",
+    "shelob9/mailchimp-functions": "*",
     "wpackagist-theme/twentynineteen": "*"
   },
   "extra": {
     "wordpress-plugin": "wp-content/plugins/{$name}",
     "wordpress-theme": "wp-content/themes/{$name}",
     "wordpress-muplugin": "wp-content/mu-plugins/{$name}"
+  },
+  "config": {
+    "platform": {
+      "php": "7.2"
+    },
+    "sort-packages": true
   }
 }

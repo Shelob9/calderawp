@@ -1,0 +1,36 @@
+version:
+  id: 1
+  wp-db-tools: 0.2
+table:
+  name: caldera_mailchimp_accounts
+  prefix: site
+  schema:
+    id:
+      name: id
+      description: bigint(20) unsigned NOT NULL AUTO_INCREMENT
+      format: '%d'
+    api_key:
+      name: api_key
+      description: varchar(255) DEFAULT NULL
+      format: '%s'
+    updated:
+      name: updated
+      description: timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
+      format: '%s'
+    name:
+      name: name
+      description: text
+      format: '%s'
+    mailchimp_account_id:
+      name: mailchimp_account_id
+      description: varchar(255) DEFAULT NULL
+      format: '%s'
+  primary_key:
+  - id
+  indices:
+    mailchimp_account_id:
+      name: mailchimp_account_id
+      description: KEY `mailchimp_account_id` (`mailchimp_account_id`)
+    api_key:
+      name: api_key
+      description: KEY `api_key` (`api_key`)
