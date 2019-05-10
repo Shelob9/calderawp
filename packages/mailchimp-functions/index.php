@@ -1,14 +1,14 @@
 <?php
 include_once __DIR__ . '/vendor/autoload.php';
-$dotenv = Dotenv\Dotenv::create(__DIR__);
-$dotenv->load();
+//$dotenv = Dotenv\Dotenv::create(__DIR__);
+//$dotenv->load();
 
 
 $listId = '45907f0c59';
 $categoryId = '50c908e6aa';
-
-$account = $mailchimp->getAccount([]);
-file_put_contents('account.json', json_encode($account) );exit;
+$mailchimp = new \Mailchimp\MailchimpLists('48a03b014a447b79e577cdbf03a8337f-us3');
+$account = $mailchimp->getInterestCategories('45907f0c59','be5e6673ca');
+file_put_contents('interest.json', json_encode($account) );exit;
 $x = (new \something\Mailchimp\Controllers\GetCategories($mailchimp))->__invoke($listId,$categoryId);
 echo json_encode($x);exit;
 

@@ -82,9 +82,10 @@ class MailchimpFormConfigTest extends TestCase
             ]
         ];
         $form = MailchimpFormConfig::fromArray($data);
+
         $this->assertEquals($data['name'], $form->toArray()['name'] );
         $this->assertEquals($data['id'], $form->toArray()['id'] );
-        $this->assertEquals($data['fields'], $form->toArray()['fields'] );
+        $this->assertEquals(3, count($form->toArray()['fields']) );
         $this->assertEquals([$data['processor']], $form->toArray()['processors'] );
      }
 

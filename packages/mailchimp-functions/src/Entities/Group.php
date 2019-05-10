@@ -52,7 +52,7 @@ class Group extends MailChimpEntity implements ConvertsToUiField
 		return [
 			'fieldId' => $this->getGroupId(),
 			'label' => $this->getTitle(),
-			'fieldType' => $this->getType(),
+			'fieldType' => 'dropdown' === $this->getType() ? 'select' : $this->getType(),
 			'value' => ''
 		];
 	}

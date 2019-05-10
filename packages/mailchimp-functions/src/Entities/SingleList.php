@@ -202,7 +202,13 @@ class SingleList extends MailChimpEntity
 			/** @var Group $group */
 			foreach ($groups as $group) {
 				$field = $group->toUiFieldConfig();
-				if ('checkboxes' === $group->getType()
+
+				if (
+				    in_array( $group->getType(),[
+                        'dropdown',
+                        'checkboxes',
+                        'radio'
+                    ])
 					&& $this->groupFields->hasCategoriesForGroup($group->getId())
 				) {
 
@@ -226,6 +232,7 @@ class SingleList extends MailChimpEntity
 			}
 
 		}
+		
 		return $fields;
 	}
 

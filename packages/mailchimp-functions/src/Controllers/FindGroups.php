@@ -57,7 +57,11 @@ class FindGroups extends MailchimpProxy
         if (!empty($groups->getGroups())) {
             /** @var Group $group */
             foreach ($groups->getGroups() as $group) {
-                if ('checkboxes' == $group->getType()) {
+                if( in_array( $group->getType(),[
+                    'dropdown',
+                    'checkboxes',
+                    'radio'
+                ])) {
                     try {
                         $cats = $this->getCategories($listId, $group->getId());
                         $groups->addCategoriesForGroup($group->getId(), $cats);

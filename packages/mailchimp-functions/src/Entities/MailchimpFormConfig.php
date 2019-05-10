@@ -138,24 +138,31 @@ class MailchimpFormConfig extends SimpleEntity
                         'fields' => [$this->getProcessor()['mergeFields'][0]]
                     ]
                 ]
-            ],
-            [
-                'rowId' => 'r2',
-                'columns' => [
-                    [
-                        'columnId' => 'r2-c1',
-                        'width' => '1/2',
-                        'fields' => [$this->getProcessor()['mergeFields'][1]]
-                    ],
-                    [
-                        'columnId' => 'r2-c2',
-                        'width' => '1/2',
-                        'fields' => [$this->getProcessor()['mergeFields'][2]]
-                    ]
-
-                ]
             ]
         ];
+
+        if( isset( $this->getProcessor()['mergeFields'][1])){
+            $columns = [
+                [
+                    'columnId' => 'r2-c1',
+                    'width' => '1/2',
+                    'fields' => [$this->getProcessor()['mergeFields'][1]]
+                ],
+
+
+            ];
+            if( isset($this->getProcessor()['mergeFields'][2] )){
+                $columns[] = [
+                    'columnId' => 'r2-c2',
+                    'width' => '1/2',
+                    'fields' => [$this->getProcessor()['mergeFields'][2]]
+                ];
+            }
+            $array['rows'][] = [
+                'rowId' => 'r2',
+                'columns' => $columns
+            ];
+        };
         $groupFields = $this->getProcessor()['groupFields'];
         if (!empty($groupFields)) {
             foreach ($groupFields as $fieldId) {
