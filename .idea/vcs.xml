@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mu-plugins/contact-form" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/packages/mailchimp-functions" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/packages/mailchimp-functions/vendor/calderawp/caldera-db" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/packages/mailchimp-functions/vendor/calderawp/caldera-interop" vcs="Git" />

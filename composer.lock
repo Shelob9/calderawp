@@ -134,18 +134,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Shelob9/mailchimp-plugin.git",
-                "reference": "d192475a4475001a5cc69dd7badccd161be2621f"
+                "reference": "ac9dfd273997a87c031c423a6257090b98679aaf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Shelob9/mailchimp-plugin/zipball/d192475a4475001a5cc69dd7badccd161be2621f",
-                "reference": "d192475a4475001a5cc69dd7badccd161be2621f",
+                "url": "https://api.github.com/repos/Shelob9/mailchimp-plugin/zipball/ac9dfd273997a87c031c423a6257090b98679aaf",
+                "reference": "ac9dfd273997a87c031c423a6257090b98679aaf",
                 "shasum": ""
             },
             "require": {
                 "calderawp/rest-api": "*",
+                "guzzlehttp/guzzle": "^6.2",
                 "php": "^7.2",
-                "symfony/yaml": "^4.3@dev"
+                "symfony/yaml": "^4.3@dev",
+                "thinkshout/mailchimp-api-php": "dev-master"
             },
             "require-dev": {
                 "mockery/mockery": "^1.2",
@@ -202,7 +204,7 @@
                 "source": "https://github.com/Shelob9/mailchimp-plugin/tree/master",
                 "issues": "https://github.com/Shelob9/mailchimp-plugin/issues"
             },
-            "time": "2019-05-09T15:50:50+00:00"
+            "time": "2019-05-10T13:20:14+00:00"
         },
         {
             "name": "calderawp/data-source",
@@ -922,16 +924,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "a49704e0216a2035c0af70ba9d8bd0d8ffcb3a86"
+                "reference": "0e5fad2281ae521893804d2e7974704be9b55c1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/a49704e0216a2035c0af70ba9d8bd0d8ffcb3a86",
-                "reference": "a49704e0216a2035c0af70ba9d8bd0d8ffcb3a86",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/0e5fad2281ae521893804d2e7974704be9b55c1b",
+                "reference": "0e5fad2281ae521893804d2e7974704be9b55c1b",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.2"
+                "php": ">=5.6.20"
             },
             "provide": {
                 "wordpress/core-implementation": "dev-master"
@@ -954,7 +956,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2019-05-09T15:12:19+00:00"
+            "time": "2019-05-10T09:57:19+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
