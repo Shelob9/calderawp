@@ -6,7 +6,7 @@ include_once __DIR__ . '/vendor/autoload.php';
 
 $listId = '45907f0c59';
 $categoryId = '50c908e6aa';
-$mailchimp = new \Mailchimp\MailchimpLists('48a03b014a447b79e577cdbf03a8337f-us3');
+$mailchimp = new \Mailchimp\MailchimpLists('-us3');
 $account = $mailchimp->getInterestCategories('45907f0c59','be5e6673ca');
 file_put_contents('interest.json', json_encode($account) );exit;
 $x = (new \something\Mailchimp\Controllers\GetCategories($mailchimp))->__invoke($listId,$categoryId);
