@@ -11,6 +11,8 @@ proxy:
     - mail.calderawp.lndo.site
   pma:
     - pma.calderawp.lndo.site
+  content:
+    - content.calderawp.lndo.site
 services:
   appserver:
     composer:
@@ -38,9 +40,6 @@ services:
     webroot: wp-content
     config:
       server: config/server.conf
-      vhosts: config/custom.conf
-      params: config/params
-
 tooling:
   composer:
     service: appserver

@@ -7,7 +7,6 @@ function _getenv($var, $default = '')
 	return !empty(getenv($var)) ? getenv($var) : $default;
 }
 
-
 define('DB_NAME', _getenv('DB_NAME', 'wordpress'));
 define('DB_USER', _getenv('DB_USER', 'wordpress'));
 define('DB_PASSWORD', _getenv('DB_PASSWORD', 'wordpress'));
@@ -21,7 +20,7 @@ define('WP_DEBUG_LOG', _getenv('WP_DEBUG_LOG', true ));
 define('WP_DEBUG_DISPLAY', _getenv('WP_DEBUG_DISPLAY', true ));
 
 define( 'WP_CONTENT_DIR', dirname(__FILE__) . '/wp-content' );
-define( 'WP_CONTENT_URL', 'https://localhost:32838/wp-content' );
+define( 'WP_CONTENT_URL', 'https://localhost:32776/wp-content' );
 
 define( 'WPMU_PLUGIN_DIR', dirname(__FILE__) . '/mu-plugins' );
 define( 'WPMU_PLUGIN_URL', 'https://calderawp.lndo.site/mu-plugins' );

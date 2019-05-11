@@ -103,6 +103,7 @@
     <mapping directory="$PROJECT_DIR$/wp-content/packages/mailchimp-functions/vendor/symfony/polyfill-ctype" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/packages/mailchimp-functions/vendor/thinkshout/mailchimp-api-php" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/packages/mailchimp-functions/vendor/vlucas/phpdotenv" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wp-content/plugins/caldera-forms" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/vendor/calderawp/caldera-db" vcs="Git" />
@@ -176,6 +177,7 @@
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/vendor/symfony/yaml" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/vendor/thinkshout/mailchimp-api-php" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/vendor/vlucas/phpdotenv" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wp-content/plugins/entry-blocks" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/headless-mode" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/wp-graphql" vcs="Git" />
   </component>

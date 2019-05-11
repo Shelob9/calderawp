@@ -31,6 +31,16 @@
       <path value="$PROJECT_DIR$/vendor/johnpbloch/wordpress" />
       <path value="$PROJECT_DIR$/vendor/thinkshout/mailchimp-api-php" />
       <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/calderawp/caldera-forms-query" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/inpsyde/wonolog" />
+      <path value="$PROJECT_DIR$/vendor/nilportugues/sql-query-builder" />
+      <path value="$PROJECT_DIR$/vendor/nilportugues/sql-query-formatter" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/a5hleyrich/wp-queue" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />

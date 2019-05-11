@@ -21,6 +21,11 @@
       "type": "vcs",
       "url": "git@github.com:Shelob9/mailchimp-plugin.git"
     },
+
+    {
+      "type": "vcs",
+      "url": "https://github.com/CalderaWP/caldera-forms"
+    },
     {
       "type": "path",
       "url": "./packages/mailchimp-functions"
@@ -34,7 +39,9 @@
     "johnpbloch/wordpress"            : ">=5.2",
     "calderawp/caldera-mailchimp": "*",
     "shelob9/mailchimp-functions": "*",
-    "wpackagist-theme/twentynineteen": "*"
+    "wpackagist-theme/twentynineteen": "*",
+    "calderawp/entry-blocks": "dev-master",
+    "Desertsnowman/caldera-forms": "dev-feature/3134"
   },
   "extra": {
     "wordpress-plugin": "wp-content/plugins/{$name}",
