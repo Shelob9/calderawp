@@ -69,6 +69,21 @@ class GroupsTest extends TestCase
 	}
 
     /**
+     * @covers \something\Mailchimp\Entities\Groups::hasGroup()
+     */
+    public function testHasGroup()
+    {
+        $data = (array)$this->getGroupsData()[0];
+        $group =  Group::fromArray($data);
+        $groups = new Groups();
+        $this->assertFalse($groups->hasGroup($group->getId()));
+        $groups->addGroup($group);
+        $this->assertTrue($groups->hasGroup($group->getId() ));
+
+
+    }
+
+    /**
      * @covers \something\Mailchimp\Entities\Groups::removeGroup()
      */
     public function testRemoveGroup()
@@ -81,8 +96,6 @@ class GroupsTest extends TestCase
         $this->assertTrue($groups->removeGroup($group->getId() ));
         $this->expectException(\Exception::class);
         $groups->getGroup($group->getId());
-
-
 
 
     }

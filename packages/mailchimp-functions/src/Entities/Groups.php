@@ -4,91 +4,90 @@
 namespace something\Mailchimp\Entities;
 
 
-
 use calderawp\interop\SimpleEntity;
 use something\Mailchimp\Exception;
 
 class Groups extends MailChimpEntity
 {
 
-	/**
-	 * @var Group[]
-	 */
-	protected $groups;
+    /**
+     * @var Group[]
+     */
+    protected $groups;
 
-	/**
-	 * @var Categories[]
-	 */
-	protected $categories;
+    /**
+     * @var Categories[]
+     */
+    protected $categories;
 
-	public function __construct()
-	{
-		$this->groups =[];
-		$this->categories = [];
-	}
+    public function __construct()
+    {
+        $this->groups = [];
+        $this->categories = [];
+    }
 
-	/** @inheritdoc */
-	public static function fromArray(array $items): SimpleEntity
-	{
-		$obj = new static();
-	    $handleGroup = function ($obj,$group){
-            if( ! is_array( $group ) ) {
-                if(  is_a($group, Group::class) ) {
+    /** @inheritdoc */
+    public static function fromArray(array $items): SimpleEntity
+    {
+        $obj = new static();
+        $handleGroup = function ($obj, $group) {
+            if (!is_array($group)) {
+                if (is_a($group, Group::class)) {
                     $obj->addGroup($group);
                     return $obj;
-                }else{
+                } else {
                     $group = (array)$group;
 
                 }
             }
-            $obj->addGroup( Group::fromArray($group));
+            $obj->addGroup(Group::fromArray($group));
             return $obj;
         };
 
-        if( isset($items['groups'])){
+        if (isset($items['groups'])) {
 
-            foreach ( $items['groups'] as $group) {
-                $obj = $handleGroup($obj,$group);
+            foreach ($items['groups'] as $group) {
+                $obj = $handleGroup($obj, $group);
             }
-        }else{
-            foreach ( $items as $group ){
-                $obj = $handleGroup($obj,$group);
+        } else {
+            foreach ($items as $group) {
+                $obj = $handleGroup($obj, $group);
 
-            }
-        }
-
-        if( isset($items['categories'])){
-            foreach ( $items['categories'] as $groupId => $category ) {
-                $obj->addCategoriesForGroup($groupId,$category);
             }
         }
-		return$obj;
-	}
 
-	/**
-	 * Add a group to collection
-	 *
-	 * @param Group $group
-	 *
-	 * @return $this
-	 */
-	public function addGroup(Group $group)
-	{
-		if (! is_array($this->groups)) {
-			$this->groups = $this->getGroups();
-		}
-		$this->groups[$group->getId()] = $group;
-		return $this;
-	}
+        if (isset($items['categories'])) {
+            foreach ($items['categories'] as $groupId => $category) {
+                $obj->addCategoriesForGroup($groupId, $category);
+            }
+        }
+        return $obj;
+    }
+
+    /**
+     * Add a group to collection
+     *
+     * @param Group $group
+     *
+     * @return $this
+     */
+    public function addGroup(Group $group)
+    {
+        if (!is_array($this->groups)) {
+            $this->groups = $this->getGroups();
+        }
+        $this->groups[$group->getId()] = $group;
+        return $this;
+    }
 
     /**
      * @param string $id
      * @return bool
      */
-	public function removeGroup( string $id ) : bool
+    public function removeGroup(string $id): bool
     {
         $groups = $this->getGroups();
-        if( isset( $groups[$id]) ){
+        if (isset($groups[$id])) {
             unset($groups[$id]);
             $this->groups = $groups;
             return true;
@@ -96,64 +95,74 @@ class Groups extends MailChimpEntity
         return false;
     }
 
-	/**
-	 * Get a group from collection
-	 *
-	 * @param string $id
-	 *
-	 * @return Group
-	 * @throws Exception
-	 */
-	public function getGroup(string $id ) : Group
-	{
-		if( ! isset( $this->getGroups()[$id])){
-			throw new Exception();
-		}
-		return $this->getGroups()[$id];
+    /**
+     * Get a group from collection
+     *
+     * @param string $id
+     *
+     * @return Group
+     * @throws Exception
+     */
+    public function getGroup(string $id): Group
+    {
+        if (!$this->hasGroup($id)) {
+            throw new Exception();
+        }
+        return $this->getGroups()[$id];
 
-	}
+    }
 
-	public function getGroups(): array
-	{
-		return is_array($this->groups) ? $this->groups : [];
-	}
+    /**
+     * @param string $id
+     * @return bool
+     */
+    public function hasGroup(string $id): bool
+    {
+	    return isset($this->getGroups()[$id]);
+    }
 
-	/**
-	 * @param string $categoryId
-	 *
-	 * @return mixed|Categories
-	 * @throws Exception
-	 */
-	public function getCategoriesForGroup(string $categoryId){
-		if( ! $this->hasCategoriesForGroup($categoryId) ){
-			throw new Exception();
+    public function getGroups(): array
+    {
+        return is_array($this->groups) ? $this->groups : [];
+    }
 
-		}
-		return $this->categories[$categoryId];
-	}
+    /**
+     * @param string $categoryId
+     *
+     * @return mixed|Categories
+     * @throws Exception
+     */
+    public function getCategoriesForGroup(string $categoryId)
+    {
+        if (!$this->hasCategoriesForGroup($categoryId)) {
+            throw new Exception();
 
-	/**
-	 * @param string $categoryId
-	 *
-	 * @return bool
-	 */
-	public function hasCategoriesForGroup(string $categoryId)  :bool
-	{
-		return isset($this->categories[$categoryId]);
-	}
+        }
+        return $this->categories[$categoryId];
+    }
 
-	/**
-	 * @param string $categoryId
-	 * @param Categories $categories
-	 *
-	 * @return Groups
-	 */
-	public function addCategoriesForGroup(string $categoryId, Categories$categories) : Groups
-	{
-		$this->categories[$categoryId]= $categories;
-		return $this;
+    /**
+     * @param string $categoryId
+     *
+     * @return bool
+     */
+    public function hasCategoriesForGroup(string $categoryId): bool
+    {
+        return isset($this->categories[$categoryId]);
+    }
 
-	}
+    /**
+     * @param string $categoryId
+     * @param Categories $categories
+     *
+     * @return Groups
+     */
+    public function addCategoriesForGroup(string $categoryId, Categories $categories): Groups
+    {
+        $this->categories[$categoryId] = $categories;
+        return $this;
+
+    }
 
 
 }
