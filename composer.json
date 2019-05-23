@@ -1,60 +1,96 @@
 {
-  "name": "shelob9/calderawp",
-  "minimum-stability": "dev",
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://wpackagist.org"
+    "required": {
+        "wp-graphql/wp-graphql": "dev-develop",
+        "shelob9/contact-form": "*",
+        "shelob9/headless-mode": "*",
+        "vlucas/phpdotenv": "^3.3",
+        "johnpbloch/wordpress": ">=5.2",
+        "calderawp/caldera-mailchimp": "*",
+        "wpackagist-theme/twentynineteen": "*",
+        "calderawp/entry-blocks": "dev-master",
+        "Desertsnowman/caldera-forms": "dev-feature/3134"
     },
-    {
-      "type": "git",
-      "url": "git@github.com:wp-graphql/wp-graphql.git"
+    "name": "shelob9/calderawp",
+    "require": {
+        "php": "^7.2",
+        "calderawp/caldera-db": "dev-master",
+        "calderawp/caldera-interop": "dev-master",
+        "calderawp/data-source": "dev-master",
+        "calderawp/http": "dev-master",
+        "calderawp/rest-api": "dev-master",
+        "guzzlehttp/guzzle": "^6.2",
+        "symfony/yaml": "^4.3@dev",
+        "thinkshout/mailchimp-api-php": "dev-master",
+        "vlucas/phpdotenv": "^3.3"
     },
-    {
-      "type": "git",
-      "url": "git@github.com:Shelob9/headless-mode.git"
+    "require-dev": {
+        "mockery/mockery": "^1.2",
+        "phpunit/phpunit": "^7.3",
+        "squizlabs/php_codesniffer": "3.*",
+        "symplify/monorepo-builder": "^4.7"
     },
-    {
-      "type": "vcs",
-      "url": "https://gist.github.com/Shelob9/8b561ddbab7f01b795598f43ec6644da.git"
-    },{
-      "type": "vcs",
-      "url": "git@github.com:Shelob9/mailchimp-plugin.git"
+    "autoload": {
+        "psr-4": {
+            "calderawp\\CalderaMailChimp\\": "wp-content/plugins/caldera-mailchimp/php",
+            "something\\Mailchimp\\": "packages/mailchimp-functions/src"
+        }
     },
-
-    {
-      "type": "vcs",
-      "url": "https://github.com/CalderaWP/caldera-forms"
+    "autoload-dev": {
+        "files": [
+            "wp-content/plugins/caldera-mailchimp/inc/asset-loader.php",
+            "wp-content/plugins/caldera-mailchimp/inc/scripts.php"
+        ],
+        "psr-4": {
+            "calderawp\\CalderaMailChimp\\Tests\\": "wp-content/plugins/caldera-mailchimp/tests",
+            "something\\Tests\\Mailchimp\\": "packages/mailchimp-functions/tests/Mailchimp"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:wp-graphql/wp-graphql.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:Shelob9/headless-mode.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://gist.github.com/Shelob9/8b561ddbab7f01b795598f43ec6644da.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:Shelob9/mailchimp-plugin.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/CalderaWP/caldera-forms"
+        }
+    ],
+    "replace": {
+        "calderawp/caldera-mailchimp": "self.version",
+        "shelob9/mailchimp-functions": "self.version"
+    },
+    "scripts": {
+        "merge": "vendor/bin/monorepo-builder merge",
+        "release": "vendor/bin/monorepo-builder release",
+        "split": "vendor/bin/monorepo-builder split ",
+        "monorepo:validate": "vendor/bin/monorepo-builder validate "
+    },
+    "config": {
+        "platform": {
+            "php": "7.2"
+        },
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "wordpress-plugin": "wp-content/plugins/{$name}",
+        "wordpress-theme": "wp-content/themes/{$name}",
+        "wordpress-muplugin": "wp-content/mu-plugins/{$name}"
     }
-  ],
-  "require": {
-    "wp-graphql/wp-graphql": "dev-develop",
-    "shelob9/contact-form": "*",
-    "shelob9/headless-mode": "*",
-    "vlucas/phpdotenv": "^3.3@dev",
-    "johnpbloch/wordpress"            : ">=5.2",
-    "calderawp/caldera-mailchimp": "*",
-    "wpackagist-theme/twentynineteen": "*",
-    "calderawp/entry-blocks": "dev-master",
-    "Desertsnowman/caldera-forms": "dev-feature/3134"
-  },
-  "extra": {
-    "wordpress-plugin": "wp-content/plugins/{$name}",
-    "wordpress-theme": "wp-content/themes/{$name}",
-    "wordpress-muplugin": "wp-content/mu-plugins/{$name}"
-  },
-  "scripts": {
-    "merge": "vendor/bin/monorepo-builder merge",
-    "release": "vendor/bin/monorepo-builder release",
-    "split": "vendor/bin/monorepo-builder split "
-  },
-  "config": {
-    "platform": {
-      "php": "7.2"
-    },
-    "sort-packages": true
-  },
-  "require-dev": {
-    "symplify/monorepo-builder": "^5.5@dev"
-  }
 }

@@ -4,12 +4,23 @@ parameters:
         require-dev:
             phpunit/phpunit: '^7.3'
             symplify/monorepo-builder: '^4.7'
+        required:
+            wp-graphql/wp-graphql: 'dev-develop'
+            shelob9/contact-form: '*'
+            shelob9/headless-mode: '*'
+            vlucas/phpdotenv: '^3.3'
+            johnpbloch/wordpress: '>=5.2'
+            calderawp/caldera-mailchimp: '*'
+            wpackagist-theme/twentynineteen: '*'
+            calderawp/entry-blocks: 'dev-master'
+            Desertsnowman/caldera-forms: 'dev-feature/3134'
 
-    # for "split" command
+    # for split" command
     directories_to_repositories:
-
+        packages/mailchimp-functions: 'git@github.com:shelob9/mailchimp-functions.git'
     package_directories:
     - 'packages'
+    - 'wp-content/plugins/caldera-mailchimp'
     parameters:
         merge_sections:
         # default values

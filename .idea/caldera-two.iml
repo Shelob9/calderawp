@@ -2,6 +2,10 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/packages/mailchimp-functions/tests/Mailchimp" isTestSource="true" packagePrefix="something\Tests\Mailchimp\" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins/caldera-mailchimp/php" isTestSource="false" packagePrefix="calderawp\CalderaMailChimp\" />
+      <sourceFolder url="file://$MODULE_DIR$/packages/mailchimp-functions/src" isTestSource="false" packagePrefix="something\Mailchimp\" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins/caldera-mailchimp/tests" isTestSource="true" packagePrefix="calderawp\CalderaMailChimp\Tests\" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/a5hleyrich/wp-queue" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/calderawp/caldera-containers" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/calderawp/caldera-db" />
