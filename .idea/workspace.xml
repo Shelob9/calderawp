@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f222dcf9-5e13-461b-ad4d-fdf032795eb3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/caldera-two.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caldera-two.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/install.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monorepo-builder.yml" beforeDir="false" afterPath="$PROJECT_DIR$/monorepo-builder.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/caldera-forms/assets/js/state/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-forms/assets/js/state/state.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/caldera-mailchimp.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/caldera-mailchimp.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/composer.json" afterDir="false" />
@@ -400,18 +395,17 @@
       <workItem from="1558461977762" duration="206000" />
       <workItem from="1558549895419" duration="1378000" />
       <workItem from="1558551380616" duration="3102000" />
-      <workItem from="1558616728516" duration="13384000" />
+      <workItem from="1558616728516" duration="14551000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115545000" />
+    <option name="totallyTimeSpent" value="116712000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="166" y="23" width="1772" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.83887917" visible="true" weight="0.28092486" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.83887917" visible="true" weight="0.28092486" />
       <window_info id="Structure" order="1" sideWeight="0.15964912" side_tool="true" weight="0.28092486" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -424,7 +418,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3299363" />
-      <window_info anchor="bottom" x="467" y="812" width="845" height="246" id="Terminal" order="10" sideWeight="0.49884394" visible="true" weight="0.28407642" />
+      <window_info active="true" anchor="bottom" x="467" y="812" width="845" height="246" id="Terminal" order="10" sideWeight="0.49884394" visible="true" weight="0.28407642" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5011561" side_tool="true" weight="0.555414" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
