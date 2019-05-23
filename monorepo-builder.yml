@@ -14,7 +14,6 @@ parameters:
             wpackagist-theme/twentynineteen: '*'
             calderawp/entry-blocks: 'dev-master'
             Desertsnowman/caldera-forms: 'dev-feature/3134'
-
     # for split" command
     directories_to_repositories:
         packages/mailchimp-functions: 'git@github.com:shelob9/mailchimp-functions.git'
