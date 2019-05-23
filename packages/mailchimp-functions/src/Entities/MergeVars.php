@@ -125,12 +125,23 @@ class MergeVars extends MailChimpEntity implements ConvertsToUiField
     /**
      * Check if merge var is in collection
      *
-     * @param string $id
+     * @param string $mergeIdOrMergeTag
      * @return bool
      */
-    public function hasMergeVar(string $id): bool
+    public function hasMergeVar(string $mergeIdOrMergeTag): bool
     {
-        return isset($this->getMergeVars()[$id]);
+        if( isset($this->getMergeVars()[$mergeIdOrMergeTag]) ){
+            return true;
+        }
+        if( ! empty($this->getMergeVars()) ){
+            /** @var MergeVar $mergeVar */
+            foreach ($this->getMergeVars() as $mergeVar ){
+                if( $mergeIdOrMergeTag === $mergeVar->getTag() ){
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 
 }

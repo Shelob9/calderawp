@@ -99,6 +99,21 @@ class MergeVarsTest extends TestCase
         $this->assertTrue($mergeVars->hasMergeVar($id3));
     }
 
+    /**
+     * @covers \something\Mailchimp\Entities\MergeVars::hasMergeVar()
+     */
+    public function testHasMergeVarByTags()
+    {
+        $data = (array)$this->getMergeFieldsData();
+
+        $tag1 = $data[0]->tag;
+        $tag2 = $data[1]->tag;
+        /** @var MergeVars $mergeVars */
+        $mergeVars = MergeVars::fromArray($data);
+        $this->assertTrue($mergeVars->hasMergeVar($tag1));
+        $this->assertTrue($mergeVars->hasMergeVar($tag2));
+    }
+
 
     /**
      * @covers \something\Mailchimp\Entities\MergeVars::hasMergeVar()
@@ -110,7 +125,7 @@ class MergeVarsTest extends TestCase
 
         $id1 = $data[0]->merge_id;
         $id2 = $data[1]->merge_id;
-        $id3 = 'fsf';
+        $id3 = 'fs=f';
         /** @var MergeVars $mergeVars */
         $mergeVars = MergeVars::fromArray($data);
         $var3 = (new MergeVar())->setMergeId($id3);
