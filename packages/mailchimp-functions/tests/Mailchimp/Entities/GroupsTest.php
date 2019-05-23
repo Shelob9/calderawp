@@ -67,4 +67,23 @@ class GroupsTest extends TestCase
 
 
 	}
+
+    /**
+     * @covers \something\Mailchimp\Entities\Groups::removeGroup()
+     */
+    public function testRemoveGroup()
+    {
+        $data = (array)$this->getGroupsData()[0];
+        $group =  Group::fromArray($data);
+        $groups = new Groups();
+        $groups->addGroup($group);
+        $this->assertEquals($group, $groups->getGroup($group->getId()));
+        $this->assertTrue($groups->removeGroup($group->getId() ));
+        $this->expectException(\Exception::class);
+        $groups->getGroup($group->getId());
+
+
+
+
+    }
 }

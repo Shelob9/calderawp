@@ -81,8 +81,23 @@ class Groups extends MailChimpEntity
 		return $this;
 	}
 
+    /**
+     * @param string $id
+     * @return bool
+     */
+	public function removeGroup( string $id ) : bool
+    {
+        $groups = $this->getGroups();
+        if( isset( $groups[$id]) ){
+            unset($groups[$id]);
+            $this->groups = $groups;
+            return true;
+        }
+        return false;
+    }
+
 	/**
-	 * Remove a group from collection
+	 * Get a group from collection
 	 *
 	 * @param string $id
 	 *
