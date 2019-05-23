@@ -151,6 +151,26 @@ class MergeVarsTest extends TestCase
         $this->assertFalse($mergeVars->hasMergeVar($id3));
     }
 
+
+    /**
+     * @covers \something\Mailchimp\Entities\MergeVars::hasMergeVar()
+     * @covers \something\Mailchimp\Entities\MergeVars::removeMergeVar()
+     */
+    public function testRemoveMergeVarByTags()
+    {
+        $data = (array)$this->getMergeFieldsData();
+
+        $tag1 = $data[0]->tag;
+        $tag2 = $data[1]->tag;
+        /** @var MergeVars $mergeVars */
+        $mergeVars = MergeVars::fromArray($data);
+        $this->assertTrue($mergeVars->hasMergeVar($tag1));
+        $this->assertTrue($mergeVars->hasMergeVar($tag2));
+        $mergeVars->removeMergeVar($tag2);
+        $this->assertTrue($mergeVars->hasMergeVar($tag1));
+        $this->assertFalse($mergeVars->hasMergeVar($tag2));
+    }
+
     /**
      * @covers \something\Mailchimp\Entities\MergeVars::toUiFieldConfig()
      *

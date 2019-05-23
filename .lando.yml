@@ -35,11 +35,10 @@ services:
       - database
       - database.calderawp.internal
   content:
-    type: nginx
+    type: php
+    via: nginx
     ssl: true
     webroot: wp-content
-    config:
-      server: config/server.conf
 tooling:
   composer:
     service: appserver

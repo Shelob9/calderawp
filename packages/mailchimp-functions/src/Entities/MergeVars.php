@@ -117,7 +117,19 @@ class MergeVars extends MailChimpEntity implements ConvertsToUiField
             return false;
         }
         $mergeVars = $this->getMergeVars();
-        unset($mergeVars[$id]);
+        if( isset( $mergeVars[$id])){
+            unset($mergeVars[$id]);
+        }else{
+            if( ! empty($this->getMergeVars()) ){
+                /** @var MergeVar $mergeVar */
+                foreach ($this->getMergeVars() as $mergeVar ){
+                    if( $id === $mergeVar->getTag() ){
+                        unset($mergeVars[$mergeVar->getMergeId()]);
+                        break;
+                    }
+                }
+            }
+        }
         $this->mergeVars = $mergeVars;
         return true;
     }
