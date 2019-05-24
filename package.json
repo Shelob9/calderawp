@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "zip": "node zip.js"
+  }
+}

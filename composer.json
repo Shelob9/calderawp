@@ -1,15 +1,4 @@
 {
-    "required": {
-        "wp-graphql/wp-graphql": "dev-develop",
-        "shelob9/contact-form": "*",
-        "shelob9/headless-mode": "*",
-        "vlucas/phpdotenv": "^3.3",
-        "johnpbloch/wordpress": ">=5.2",
-        "calderawp/caldera-mailchimp": "*",
-        "wpackagist-theme/twentynineteen": "*",
-        "calderawp/entry-blocks": "dev-master",
-        "Desertsnowman/caldera-forms": "dev-feature/3134"
-    },
     "name": "shelob9/calderawp",
     "require": {
         "php": "^7.2",
@@ -21,7 +10,15 @@
         "guzzlehttp/guzzle": "^6.2",
         "symfony/yaml": "^4.3@dev",
         "thinkshout/mailchimp-api-php": "dev-master",
-        "vlucas/phpdotenv": "^3.3"
+        "vlucas/phpdotenv": "^3.3",
+        "wp-graphql/wp-graphql": "dev-develop",
+        "shelob9/contact-form": "*",
+        "shelob9/headless-mode": "*",
+        "johnpbloch/wordpress": ">=5.2",
+        "calderawp/caldera-mailchimp": "*",
+        "wpackagist-theme/twentynineteen": "*",
+        "calderawp/entry-blocks": "dev-master",
+        "Desertsnowman/caldera-forms": "dev-feature/3134"
     },
     "require-dev": {
         "mockery/mockery": "^1.2",
@@ -65,6 +62,9 @@
         {
             "type": "vcs",
             "url": "git@github.com:Shelob9/mailchimp-plugin.git"
+        },{
+            "type": "vcs",
+            "url": "git@github.com:Shelob9/entry-blocks.git"
         },
         {
             "type": "vcs",

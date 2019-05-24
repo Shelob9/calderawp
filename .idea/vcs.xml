@@ -105,6 +105,9 @@
     <mapping directory="$PROJECT_DIR$/wp-content/packages/mailchimp-functions/vendor/vlucas/phpdotenv" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/caldera-forms" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/build/caldera-mailchimp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/build/caldera-mailchimp/build/caldera-mailchimp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/build/caldera-mailchimp/build/caldera-mailchimp/build/caldera-mailchimp" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/vendor/calderawp/caldera-db" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/packages/mailchimp-functions/vendor/calderawp/caldera-interop" vcs="Git" />
