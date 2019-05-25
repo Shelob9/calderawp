@@ -76,7 +76,6 @@ class Lists
 	{
 		try {
 			/** @var int $result */
-
             $result = $this
 				->getTable()
 				->update($list->getId(), $list->toDbArray());

@@ -18,29 +18,13 @@
         "calderawp/caldera-mailchimp": "*",
         "wpackagist-theme/twentynineteen": "*",
         "calderawp/entry-blocks": "dev-master",
-        "Desertsnowman/caldera-forms": "dev-feature/3134"
+        "desertsnowman/caldera-forms": "dev-feature/3134"
     },
     "require-dev": {
         "mockery/mockery": "^1.2",
         "phpunit/phpunit": "^7.3",
         "squizlabs/php_codesniffer": "3.*",
         "symplify/monorepo-builder": "^4.7"
-    },
-    "autoload": {
-        "psr-4": {
-            "calderawp\\CalderaMailChimp\\": "wp-content/plugins/caldera-mailchimp/php",
-            "something\\Mailchimp\\": "packages/mailchimp-functions/src"
-        }
-    },
-    "autoload-dev": {
-        "files": [
-            "wp-content/plugins/caldera-mailchimp/inc/asset-loader.php",
-            "wp-content/plugins/caldera-mailchimp/inc/scripts.php"
-        ],
-        "psr-4": {
-            "calderawp\\CalderaMailChimp\\Tests\\": "wp-content/plugins/caldera-mailchimp/tests",
-            "something\\Tests\\Mailchimp\\": "packages/mailchimp-functions/tests/Mailchimp"
-        }
     },
     "repositories": [
         {

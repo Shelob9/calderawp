@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2a99fb7eb45bf317fcdfca4bb13a2089",
+    "content-hash": "8656f7158b4dfc367e78e674ae02f2c0",
     "packages": [
         {
             "name": "Desertsnowman/caldera-forms",
@@ -1178,12 +1178,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "efbbb35479707a53e1a1883d1c800e3bc1f91141"
+                "reference": "7f72fb4b30d2e58953e86619106e9149f4db4632"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/efbbb35479707a53e1a1883d1c800e3bc1f91141",
-                "reference": "efbbb35479707a53e1a1883d1c800e3bc1f91141",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/7f72fb4b30d2e58953e86619106e9149f4db4632",
+                "reference": "7f72fb4b30d2e58953e86619106e9149f4db4632",
                 "shasum": ""
             },
             "require": {
@@ -1210,7 +1210,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2019-05-24T20:57:15+00:00"
+            "time": "2019-05-25T15:51:28+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
