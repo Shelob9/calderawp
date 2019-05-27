@@ -87,11 +87,16 @@ abstract class AddSubscriber extends MailchimpProxyEndpoint
 			$listId = $request->getParam('listId');
 			$this->setList($listId);
 			if( $this->list->getAccountId() ){
-			    $mailChimp = new MailchimpLists($this->account->getApiKey());
-                if (! $request->getParam('update') ) {
-                    $this->getController()->setMailchimp($mailChimp);
-                }else{
-                    $this->setController( new \something\Mailchimp\Controllers\UpdateSubscriber($mailChimp));
+
+                $this->setAccount($this->list);
+                $apiKey = apply_filters('calderaMailChimp/AddSubscriber/apiKey', is_object($this->account) ? $this->account->getApiKey():'');
+                if ($apiKey ) {
+                    $mailChimp = new MailchimpLists($this->account->getApiKey());
+                    if (!$request->getParam('update')) {
+                        $this->getController()->setMailchimp($mailChimp);
+                    } else {
+                        $this->setController(new \something\Mailchimp\Controllers\UpdateSubscriber($mailChimp));
+                    }
                 }
             }
 		}catch (\Exception $e ){
