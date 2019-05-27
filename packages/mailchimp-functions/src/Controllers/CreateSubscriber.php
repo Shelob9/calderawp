@@ -12,13 +12,14 @@ use something\Mailchimp\Entities\Subscriber;
 abstract class CreateSubscriber extends MailchimpProxy
 {
 	use HandlesSubscriptionParams;
-	/**
-	 * @param Subscriber $subscriber
-	 * @param string $listId
-	 * @param string $status
-	 *
-	 * @return array
-	 */
+
+    /**
+     * @param Subscriber $subscriber
+     * @param string $listId
+     * @param string $status
+     * @return array
+     * @throws MailchimpAPIException
+     */
 	public function __invoke(Subscriber $subscriber, string $listId, string $status = 'subscribed') :array
 	{
 		$params = $this->prepareParams($subscriber, $status);
@@ -37,7 +38,6 @@ abstract class CreateSubscriber extends MailchimpProxy
             }
 		}
 
-        return $this->createResponse($response);
     }
 
 	abstract public function getSavedList(string $listId ): SingleList;
@@ -47,7 +47,7 @@ abstract class CreateSubscriber extends MailchimpProxy
      * @param object $response
      * @return array
      */
-    public function createResponse(object $response): array
+    public function createResponse( $response): array
     {
         return [
             'success' => true,
