@@ -76,10 +76,11 @@ class Lists
 	{
 		try {
 			/** @var int $result */
+
             $result = $this
 				->getTable()
 				->update($list->getId(), $list->toDbArray());
-			return $this->findById($result);
+			return $this->findById($list->getId());
 		} catch (\Exception $e) {
 			throw  $e;
 		}

@@ -4,6 +4,7 @@ namespace something\Tests\Mailchimp\Controllers;
 
 use Mailchimp\MailchimpLists;
 use something\Mailchimp\Controllers\CreateSubscriber;
+use something\Mailchimp\Entities\Account;
 use something\Mailchimp\Entities\SingleList;
 use something\Mailchimp\Entities\Subscriber;
 use something\Tests\Mailchimp\MockClient;
@@ -55,7 +56,13 @@ class CreateSubscriberTest extends TestCase
 				return (new SingleList())
 					->setListId($listId);
 			}
-		};
+
+            public function getSavedAccount(SingleList $list): Account
+            {
+                return (new Account())->setListId($list->getListId())->setId($list->getAccountId());
+            }
+
+        };
 
 		$response = $controller->__invoke($subscriber,$listId);
 		$this->assertEquals($data->status,$response['status']);

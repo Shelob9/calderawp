@@ -4,12 +4,11 @@
 namespace something\Mailchimp\Endpoints;
 
 
-use calderawp\caldera\Http\Exception;
 use calderawp\interop\Contracts\Rest\RestRequestContract as Request;
 use calderawp\interop\Contracts\Rest\RestResponseContract as Response;
-use Mailchimp\MailchimpAPIException;
+use Mailchimp\MailchimpLists;
 use something\Mailchimp\Controllers\CreateSubscriber;
-use something\Mailchimp\Controllers\FindMergeFields;
+use something\Mailchimp\Entities\Account;
 use something\Mailchimp\Entities\Groups;
 use something\Mailchimp\Entities\MergeVars;
 use something\Mailchimp\Entities\SingleList;
@@ -23,6 +22,11 @@ abstract class AddSubscriber extends MailchimpProxyEndpoint
 	 * @var SingleList
 	 */
 	protected $list;
+
+    /**
+     * @var Account
+     */
+    protected $account;
 
 	/** @var Groups */
 	protected $groups;
@@ -82,6 +86,14 @@ abstract class AddSubscriber extends MailchimpProxyEndpoint
 		try{
 			$listId = $request->getParam('listId');
 			$this->setList($listId);
+			if( $this->list->getAccountId() ){
+			    $mailChimp = new MailchimpLists($this->account->getApiKey());
+                if (! $request->getParam('update') ) {
+                    $this->getController()->setMailchimp($mailChimp);
+                }else{
+                    $this->setController( new \something\Mailchimp\Controllers\UpdateSubscriber($mailChimp));
+                }
+            }
 		}catch (\Exception $e ){
 			return (new \something\Mailchimp\Endpoints\Response())->setStatus($e->getCode())->setData([
 				'success' => false,
@@ -110,9 +122,20 @@ abstract class AddSubscriber extends MailchimpProxyEndpoint
 		return (new \something\Mailchimp\Endpoints\Response())->setStatus(200)->setData($data);
 	}
 
+
+    /**
+     * Find list
+     *
+     * @param string $listId
+     */
 	 protected function setList(string $listId): void {
 		$this->getController()->getSavedList($listId);
 	 }
+
+	 protected function setAccount(SingleList $list ): void
+     {
+        $this->account = $this->getController()->getSavedAccount($list);
+     }
 	/**
 	 * @param SingleList $list
 	 */

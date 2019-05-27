@@ -63,8 +63,5 @@ abstract class MailchimpProxyEndpoint implements EndpointContract
 		return (new Response() )->setStatus($exception->getCode())->setData(['message' => $exception->getMessage()]);
 	}
 
-	protected function getMailChimpClient()
-	{
-		return new MailchimpLists($_ENV['MAILCHIMP_KEY']);//@????
-	}
+
 }
