@@ -11,7 +11,7 @@ use something\Mailchimp\Entities\Subscriber;
 
 abstract class CreateSubscriber extends MailchimpProxy
 {
-	use HandlesSubscriptionParams;
+    use HandlesSubscriptionParams;
 
     /**
      * @param Subscriber $subscriber
@@ -20,28 +20,28 @@ abstract class CreateSubscriber extends MailchimpProxy
      * @return array
      * @throws MailchimpAPIException
      */
-	public function __invoke(Subscriber $subscriber, string $listId, string $status = 'subscribed') :array
-	{
-		$params = $this->prepareParams($subscriber, $status);
-		try{
-			$response =$this->getMailchimp()
-				->addMember($listId, $subscriber->getEmail(),$params);
+    public function __invoke(Subscriber $subscriber, string $listId, string $status = 'subscribed') :array
+    {
+        $params = $this->prepareParams($subscriber, $status);
+        try{
+            $response =$this->getMailchimp()
+                ->addMember($listId, $subscriber->getEmail(),$params);
             return $this->createResponse($response);
 
-		}catch (MailchimpAPIException $e){
-			if( 0 === strpos($e->getMessage(),'400: Member Exists') ){
-				$response =$this->getMailchimp()
-					->updateMember($listId, $subscriber->getEmail(),$params);
+        }catch (MailchimpAPIException $e){
+            if( 0 === strpos($e->getMessage(),'400: Member Exists') ){
+                $response =$this->getMailchimp()
+                    ->updateMember($listId, $subscriber->getEmail(),$params);
                 return $this->createResponse($response);
-			}else{
-			    throw $e;
+            }else{
+                throw $e;
             }
-		}
+        }
 
     }
 
-	abstract public function getSavedList(string $listId ): SingleList;
-	abstract public function getSavedAccount(SingleList $list ): Account;
+    abstract public function getSavedList(string $listId ): SingleList;
+    abstract public function getSavedAccount(SingleList $list ): Account;
 
     /**
      * @param object $response
@@ -51,9 +51,9 @@ abstract class CreateSubscriber extends MailchimpProxy
     {
         return [
             'success' => true,
-            'message' => 'Subscription Successful',
-            'status' => $response->status,
-            'id' => $response->id
+            'message' => 'Subscription Created Successfully',
+            'status' => isset($response->status)?$response->status: 'Failed',
+            'id' => isset($response->id)?$response->id: '',
         ];
     }
 

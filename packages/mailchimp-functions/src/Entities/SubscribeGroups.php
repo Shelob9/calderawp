@@ -31,6 +31,15 @@ class SubscribeGroups
             $this->resetData();
         }
 
+        if( ! empty( $this->data )){
+            foreach ($this->groups->getGroups() as $group) {
+                if( array_key_exists($this->data,$group->getGroupId())){
+                    unset($this->data[$group->getGroupId()]);
+                }
+            }
+
+        }
+
         return $this->data;
     }
 
@@ -81,7 +90,9 @@ class SubscribeGroups
                         $this->setGroupJoin($interest, true);
                     }
                 } else {
-                    $this->setGroupJoin($groupId, $interest);
+                    if (! is_null($join)) {
+                        $this->setGroupJoin($join, true);
+                    }
                 }
             }
         }
@@ -99,7 +110,7 @@ class SubscribeGroups
         if (isset($this->groups)) {
             /** @var Group $group */
             foreach ($this->groups->getGroups() as $group) {
-                if ('checkboxes' === $group->getType()) {
+                if (in_array($group->getType(),['checkboxes', 'radio','dropdown'])) {
                     try {
                         $categories = $this->groups->getCategoriesForGroup($group->getId());
                     } catch (Exception $e) {
@@ -117,8 +128,6 @@ class SubscribeGroups
 
                         }
                     }
-                } else {
-                    $this->data[$group->getGroupId()] = false;
                 }
             }
         }
