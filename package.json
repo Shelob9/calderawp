@@ -1,5 +1,7 @@
 {
+  "name": "@calderawp/calderawp",
   "scripts": {
-    "zip": "node zip.js"
+    "install:php": "bash install.sh",
+    "start": ""
   }
 }

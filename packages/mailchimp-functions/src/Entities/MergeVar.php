@@ -46,6 +46,7 @@ class MergeVar extends MailChimpEntity implements ConvertsToUiField
 
 	protected $defaultValue;
 
+
 	/**
 	 * @return mixed
 	 */

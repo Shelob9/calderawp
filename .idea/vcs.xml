@@ -182,6 +182,8 @@
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/caldera-mailchimp/vendor/vlucas/phpdotenv" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/entry-blocks" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/headless-mode" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wp-content/plugins/hydrate-test" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wp-content/plugins/plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/wp-graphql" vcs="Git" />
   </component>
 </project>

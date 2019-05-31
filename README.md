@@ -1,6 +1,8 @@
 [http://localhost:8148][http://localhost:8148]
 [https://calderawp.lndo.site](https://calderawp.lndo.site)
 
+
+
 ## Install
 Requires:
 * Lando
@@ -11,6 +13,12 @@ Install Steps:
 * `git clone  `
 * `cd calderawp`
 * `lando start`
+
+Things That Need Manually Fixed:
+* On start, change wp-content URL in wp-config to match localhost URL for content dir.
+* When updating WordPress, apply this patch
+    - https://core.trac.wordpress.org/attachment/ticket/46387/46387.3.diff
+    - 
 
 
 ## Releasing, Github and Packagist.

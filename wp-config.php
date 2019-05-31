@@ -20,7 +20,7 @@ define('WP_DEBUG_LOG', _getenv('WP_DEBUG_LOG', true ));
 define('WP_DEBUG_DISPLAY', _getenv('WP_DEBUG_DISPLAY', true ));
 
 define( 'WP_CONTENT_DIR', dirname(__FILE__) . '/wp-content' );
-define( 'WP_CONTENT_URL', 'https://localhost:32775' );
+define( 'WP_CONTENT_URL', 'https://localhost:32777' );
 
 define( 'WPMU_PLUGIN_DIR', dirname(__FILE__) . '/mu-plugins' );
 define( 'WPMU_PLUGIN_URL', 'https://calderawp.lndo.site/mu-plugins' );
